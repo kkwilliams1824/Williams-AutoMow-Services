@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — GreenLine Mower Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#A8E063"/>
+          <path d="M8 22C8 22 10 14 16 14C22 14 24 22 24 22" stroke="#1F3D2B" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="16" cy="11" r="3" fill="#1F3D2B"/>
+        </svg>
+        GreenLine Mower Services
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="page-header-inner">
+        <span class="eyebrow">Get in touch</span>
+        <h1>Tell us about your mower or your lawn</h1>
+        <p>Send a message with a few details and we'll get back to you with next steps — whether that's scheduling a home visit, a drop-off, or just some quick advice.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2 style="margin-bottom: 1.25rem;">Contact details</h2>
+          <dl>
+            <dt>Phone</dt>
+            <dd>(555) 010-2024</dd>
+
+            <dt>Email</dt>
+            <dd>hello@greenlinemowers.example</dd>
+
+            <dt>Workshop address</dt>
+            <dd>123 Turf Lane<br>Lubbock, TX 79401</dd>
+
+            <dt>Hours</dt>
+            <dd>Monday – Friday: 8am – 5pm<br>Saturday: 9am – 1pm<br>Sunday: Closed</dd>
+
+            <dt>Service area</dt>
+            <dd>Home visits available within Lubbock and surrounding areas. Let us know your address and we'll confirm.</dd>
+          </dl>
+        </div>
+
+        <div>
+          <h2 style="margin-bottom: 1.25rem;">Send a message</h2>
+          <form class="form" action="#" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+              <label for="service">What do you need?</label>
+              <select id="service" name="service">
+                <option value="setup">Initial setup &amp; programming</option>
+                <option value="repair">Maintenance / repair</option>
+                <option value="blades">Blade sharpening or replacement</option>
+                <option value="other">Not sure / other</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Tell us what's going on</label>
+              <textarea id="message" name="message" placeholder="Mower make/model, what's happening, and your address if you'd like a home visit."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>&copy; 2026 GreenLine Mower Services</span>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
